@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vehicle_Service_Request__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Tracks vehicle servicing requests</description>
+    <externalId>false</externalId>
+    <label>Vehicle Service Request</label>
+    <referenceTo>Vehicle_Service_Request__c</referenceTo>
+    <relationshipLabel>Vehicle Customers</relationshipLabel>
+    <relationshipName>Vehicle_Customers</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

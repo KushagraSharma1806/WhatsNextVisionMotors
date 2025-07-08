@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vehicle__c</fullName>
+    <externalId>false</externalId>
+    <label>Vehicle Model</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Suv</fullName>
+                <default>false</default>
+                <label>Suv</label>
+            </value>
+            <value>
+                <fullName>Sedan</fullName>
+                <default>false</default>
+                <label>Sedan</label>
+            </value>
+            <value>
+                <fullName>Ev</fullName>
+                <default>false</default>
+                <label>Ev</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
